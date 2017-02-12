@@ -1,0 +1,32 @@
+
+#top-border{
+    -fx-background-color: lightslategrey;
+    -fx-border-insets: 10;
+}
+#close-button:hover{
+    -fx-background-color: gainsboro;
+}
+#close-button{
+    -fx-background-color: seashell;
+    -fx-text-fill: black;
+    -fx-min-width: 30;
+    -fx-font-family: sans-serif;
+}
+#border{
+    -fx-border-color: black;
+}
+.button:hover{
+    -fx-background-color: crimson;
+}
+.button:pressed{
+    -fx-background-color: crimson;
+}
+.button{
+   -fx-background-color: grey;
+   -fx-text-fill: white;
+   -fx-min-width: 100;
+}
+.label{
+   -fx-alignment: center;
+   -fx-text-fill: black;
+}
